@@ -1,0 +1,21 @@
+{
+  "name": "rehva-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs --production",
+    "build": "vite build",
+    "preview": "node server.mjs --production",
+    "seed:firebase": "node scripts/seed-firebase.mjs"
+  },
+  "dependencies": {
+    "@paper-design/shaders-react": "^0.0.81",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
